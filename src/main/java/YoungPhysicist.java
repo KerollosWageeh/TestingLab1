@@ -24,7 +24,7 @@ public class YoungPhysicist {
             x += integers[0];
             y += integers[1];
             z += integers[2];
-            //if(x )
+            if(x < -100 || x > 100 || y < -100 || y > 100 || z < -100 || z > 100) return null;
         }
         if(x == 0 && y == 0 && z == 0) return 1;
         return 0;
