@@ -24,9 +24,9 @@ public class YoungPhysicistTest {
         assertTrue(YoungPhysicist.solveYoungPhysicist(arrayList) == 1);
         arrayList.clear();
 
-        arrayList.add(new Integer[]{3, -1, 7});
+        arrayList.add(new Integer[]{-200, -1, 7});
         arrayList.add(new Integer[]{-5, 2, -4});
         arrayList.add(new Integer[]{2, -1, -3});
-        assertTrue(YoungPhysicist.solveYoungPhysicist(arrayList) == 1);
+        assertTrue(YoungPhysicist.solveYoungPhysicist(arrayList) == null);
     }
 }
